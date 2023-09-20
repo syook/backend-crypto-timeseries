@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>generator
+<head>    <title>Lorem Ipsum Generator</title>    <style>        body {            font-family: Arial, sans-serif;            text-align: center;            margin: 0;            padding: 0;        }        .container {            max-width: 600px;            margin: 0 auto;            padding: 20px;        }        #output {            border: 1px solid #ccc;            padding: 10px;            margin-bottom: 10px;        }        #generate-button {            background-color: #007BFF;            color: white;            border: none;            padding: 10px 20px;            cursor: pointer;        }    </style></head><body>    <div class="container">        <h1>Lorem Ipsum Generator</h1>        <button id="generate-button">Generate Lorem Ipsum</button>        <div id="output"></div>    </div>    <script>        const loremIpsumText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis sem odio. Sed commodo vestibulum leo, sit amet tempus odio consectetur in. Mauris dolor elit, dignissim mollis feugiat maximus, faucibus et eros.";        document.getElementById('generate-button').addEventListener('click', function() {            const outputDiv = document.getElementById('output');            outputDiv.textContent = loremIpsumText;        });    </script>
+</body>
+</html>
+
+<title>Page Title</title>
+</head>
+</body>
+</html>
